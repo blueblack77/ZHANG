@@ -1,0 +1,20 @@
+
+
+
+
+#ifndef __motor_H
+#define __motor_H
+
+#include "stm32f1xx_hal.h"
+
+
+void Left_motor_control(uint16_t speed);
+
+void Right_motor_control(uint16_t speed);
+
+void F_Left_motor_control(uint16_t speed);
+
+void F_Right_motor_control(uint16_t speed);
+
+
+#endif
